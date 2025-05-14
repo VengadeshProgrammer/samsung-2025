@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Session Data Stealer (Educational)",
+  "version": "1.1",
+  "description": "Educational project extension for Solve For Tomorrow competition.",
+  "permissions": [
+    "storage",
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://127.0.0.1:5500/session%20responsive-2025-samsung/session%20responsive/Home.html"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icons/48.png"
+  }
+}

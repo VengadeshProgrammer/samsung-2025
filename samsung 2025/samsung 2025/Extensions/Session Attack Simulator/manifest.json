@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Session Attack Simulator",
+  "version": "1.0",
+  "description": "Simulate session attacks for educational testing.",
+  "permissions": [
+    "tabs",
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "*://127.0.0.1/*"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://127.0.0.1/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

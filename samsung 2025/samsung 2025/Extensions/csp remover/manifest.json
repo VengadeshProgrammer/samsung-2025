@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "CSP Remover",
+  "version": "1.0",
+  "description": "Removes CSP headers in Firefox.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
