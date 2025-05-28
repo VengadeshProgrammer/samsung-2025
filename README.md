@@ -77,6 +77,13 @@ I built **three Chrome extensions** to simulate real-world attacks like:
 
 In my **live demo video**, I demonstrate how SessionHalt blocks all three in real time.
 
+⚠️ Important Note:
+
+In my project, I did not develop or use real malware that steals or injects session IDs.
+Instead, I created ethical Chrome extensions that replicate malware behavior in a safe, sandboxed environment.
+To simulate attacks inside my demo site, I intentionally relaxed the CSP (Content Security Policy) and inserted a <script> tag that allows controlled script injection — solely for testing and demonstration purposes.
+
+
 Despite not having two identical devices for precise benchmarking, I achieved **high accuracy** using real-world logic.  
 SessionHalt checks fingerprinting functions directly — making it **very difficult to bypass** without rewriting an entire browser.
 
