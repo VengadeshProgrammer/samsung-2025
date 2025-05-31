@@ -92,7 +92,7 @@ SessionHalt checks fingerprinting functions directly — making it **very diffic
 ## 📉 Real Impact
 
 - ❌ Without SessionHalt: ~85% session hijack success rate  
-- ✅ With SessionHalt: <2% success rate — hijacks blocked or redirected immediately
+- ✅ With SessionHalt: <30% success rate — hijacks blocked or redirected immediately
 
 ---
 
