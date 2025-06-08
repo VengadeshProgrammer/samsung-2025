@@ -63,7 +63,7 @@ To prove this works, I built and deployed a fully functional website that simula
   [https://github.com/VengadeshProgrammer/samsung-2025](https://github.com/VengadeshProgrammer/samsung-2025)
 
 - 📄 **Project Overview Website:**  
-  [https://vengadeshprogrammer.github.io/sessionHaltBrief/](https://vengadeshprogrammer.github.io/sessionHaltBrief/)
+  [https://vengadeshprogrammer.github.io/sessionHaltBrief/](https://sites.google.com/view/sessionhalt/home)
 
 ---
 
